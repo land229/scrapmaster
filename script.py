@@ -21,7 +21,7 @@ class GoogleImagesSpider(scrapy.Spider):
     def parse(self, response):
         # Rechercher des images avec une requête spécifique
         query = "Bénin"
-        num_images = 10
+        num_images = 15
         num_pages = 2
 
         images = []
